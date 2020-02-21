@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Scripters Survey Form</h1>
+    <p id="description">thank you for taking time to improve the platform</p>
+    <form id="survey-form">
+      <div class="row">
+        <div class="label-input">
+          <label>Name:</label>
+        </div>
+        <div class="input-script">
+          <input placeholder="Name" type="text" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="label-input">
+          <label>Email:</label>
+        </div>
+        <div class="input-script">
+          <input placeholder="Email" type="email" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="label-input">
+          <label>Age:</label>
+        </div>
+        <div class="input-script">
+          <input placeholder="Age" type="number" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="label-input">
+          <label>Select your preffered language :</label>
+        </div>
+        <div class="input-script">
+          <select id="languages">
+            <option value="Javascript">Javascript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+          </select>
+        </div>
+        <div class="row">
+          <div class="label-input">
+            <label>Would you recommend a friend to scrpiters academy?</label>
+          </div>
+          <div class="input-script">
+            <input type="radio" id="male" name="Yes" value="Yes" />
+            <label for="Yes">Yes</label><br />
+            <input type="radio" id="No" name="No" value="No" />
+            <label for="No">No</label><br />
+            <input type="radio" id="Maybe" name="maybe" value="Maybe" />
+            <label for="other">Maybe</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="label-input">
+            <label>What would you like to see improved?</label>
+          </div>
+          <div class="input-script">
+            <input
+              type="checkbox"
+              id="courses"
+              name="courses"
+              value="courses"
+            />
+            <label for="vehicle1"> courses</label><br />
+            <input type="checkbox" id="forum" name="forum" value="forum" />
+            <label for="vehicle2"> forum</label><br />
+            <input
+              type="checkbox"
+              id="meetups"
+              name="meetups"
+              value="meetups"
+            />
+            <label for="vehicle3"> meetups</label><br /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="label-input">
+            <label>Any comments or Suggesstions?</label>
+          </div>
+          <div class="input-script">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <button
+          style="width: 100%; background-color: black; color: antiquewhite;"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

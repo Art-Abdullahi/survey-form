@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-size: larger;
+}
+#survey-form {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: black;
+  color: aliceblue;
+}
+.row {
+  display: block;
+  padding-top: 20px;
+}
+.label-input {
+  display: block;
+  text-align: right;
+  width: 45%;
+}
+.input-script {
+  display: block;
+}
+input {
+  width: 50%;
+}
