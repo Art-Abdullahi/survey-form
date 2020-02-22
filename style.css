@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif&display=swap");
 body {
   text-align: center;
-  font-size: larger;
+  font-size: large;
+  font-family: "Noto Serif";
+  background-image: url(bg.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 #survey-form {
   max-width: 900px;
   margin: 0 auto;
-  background-color: greenyellow;
-  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 .row {
   display: block;
@@ -15,11 +21,30 @@ body {
 .label-input {
   display: block;
   text-align: right;
+  width: 33%;
+}
+.radios {
+  width: 20%;
+  text-align: justify;
+  display: inline-block;
+}
+input,
+select,
+textarea {
   width: 45%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
-.input-script {
-  display: block;
-}
-input {
-  width: 50%;
+button {
+  width: 45%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
